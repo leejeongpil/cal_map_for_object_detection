@@ -17,5 +17,11 @@ function_name | role
 ------ | ------
 def extract_detection_info(paths): | detections folder 에서 정보를 뽑음
 def extract_groundtruth_info(paths): | groundtruths folder 에서 정보를 뽑음
-def classified_by_class(list_boxex_info, class_names): | class 별로 box 정보를 
+def classified_by_class(list_boxex_info, class_names): | class 별로 box 정보를 모음
+def data_distribution(dict_classified_by_class, class_names): | class 별로 data distribution을 측정
+def sort_by_score_detection(dict_classified_by_class, class_names): | score 순으로 정렬
+def iou(b1, b2): | iou를 계산
+def cal_ap(detection, groundtruth, class_names): | class 별로 recall, precision 을 Threshohold에 따라 계산
+def make_plot(result_cal_ap, class_name): | AP 그래프를 recall, precision 에 따라 시각화
+def cal_area(result_cal_ap, class_name): | AP 그래프의 넓이 계산
 
