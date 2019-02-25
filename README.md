@@ -7,7 +7,7 @@ Object detection 의 평가지표가 되는 mAP를 구현한 코드입니다.
    file_name.txt
    class score xmin ymin xmax ymax
 
- | detections | groundtruths
+a | detections | groundtruths
 ------ | ------ | ------
 file name | file_name.txt | file_name.txt
 contents | class score xmin ymin xmax ymax | class xmin ymin xmax ymax
