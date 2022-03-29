@@ -25,4 +25,4 @@ def cal_ap(detection, groundtruth, class_names): | class 별로 recall, precisio
 def make_plot(result_cal_ap, class_name): | AP 그래프를 recall, precision 에 따라 시각화
 def cal_area(result_cal_ap, class_name): | AP 그래프의 넓이 계산
 
-test
+# test123123
